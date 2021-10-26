@@ -3,9 +3,9 @@ const main = async () => {
   const gameContract = await gameContractFactory.deploy(
     ['Summer', 'Rick Sanchez', 'Morty'], // Names
     [
-      'https://i.imgur.com/PJMq6k2.png', // Images
-      'https://i.imgur.com/KXvvI4T.png',
-      'https://i.imgur.com/G5J721w.jpeg',
+      'QmegM7NFB9kzxmZ9QmwAJbsgvvQEnz3A8KXTVAfCd8oRpf', // Images
+      'QmcPy2hnbWdmbeENth2bUBhLfXfhfUzksPQ5uGRpBJYhKc',
+      'QmQ1zzGT4cqDneUgskMtQCcQBmoLv9NwhWedgzqpABQHZv',
     ],
     [120, 100, 400], // HP values
     [60, 100, 25],
@@ -15,9 +15,9 @@ const main = async () => {
       'Nobody exists on purpose. Nobody belongs anywhere. We’re all going to die. Come watch TV.',
     ],
     'Cromulon Head', // Boss name
-    'https://i.imgur.com/FWTplIC.png', // Boss image
+    'QmSYxWkjrFT3KzXpNX5C6XJy77f8uV8N5xfqQcAJUDXQwx', // Boss image
     10000, // Boss hp
-    50 // Boss attack damage
+    10 // Boss attack damage
   );
   await gameContract.deployed();
   console.log('Contract deployed to:', gameContract.address);

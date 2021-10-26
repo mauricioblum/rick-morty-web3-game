@@ -15,7 +15,7 @@ const main = async () => {
       'Nobody exists on purpose. Nobody belongs anywhere. We’re all going to die. Come watch TV.',
     ],
     'Cromulon Head', // Boss name
-    'https://i.imgur.com/FWTplIC.png', // Boss image
+    'QmSYxWkjrFT3KzXpNX5C6XJy77f8uV8N5xfqQcAJUDXQwx', // Boss image
     10000, // Boss hp
     10 // Boss attack damage
   );
